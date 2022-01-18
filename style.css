@@ -95,9 +95,14 @@ a{
     width:65%;
     border-radius: 50%;
     margin: auto;
+
 }
 .content .myprofile .nameandpicture p{
     font-family: spartan;
+}
+.content .myprofile .nameandpicture h3{
+    font-family: roboto;
+    margin-top: 23px;
 }
 .socialmedia{
     display: inline-block;
@@ -113,6 +118,13 @@ a{
     width: 340px;
     margin: auto;
     float: left;
+}
+.content .mybio h1{
+    font-size: 70px;
+    font-family: roboto;
+}
+.content p{
+    padding-left: 20px;
 }
 footer{
     width: 100vw;
