@@ -25,12 +25,16 @@ body, html{
 nav .name{
     float: left;
     width: 50%;
+    display: flex;
     height: 100%;
+    align-items: center;
 }
 nav .name img{
     margin: 10px;
     width: 40px;
+    height: 40px;
     float: left;
+    flex-basis: 40px;
 }
 nav .name h3{
     float: left;
