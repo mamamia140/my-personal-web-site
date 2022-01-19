@@ -1,13 +1,13 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title> M. Hakan Kılıç</title>
+        <title> M. Hakan Kılıç - Personal Web Site</title>
+        <link rel="icon" href="./assets/comp.png">
     </head>
-
     <body>
         <nav> 
             <div class="name"> <img src="./assets/square.png" alt="orangesquare"> <h3>Muhammed Hakan Kılıç</h3> <p>/ Computer Engineer</p></div>
-            <div class="navpages"> <a href=""> About me</a> <a href=""> Projects</a> <a href="./assets/documents/MuhammedHakanKilic.pdf" target="__blank"> Resume</a> <a href=""> Contact</a></div>
+            <div class="navpages"> <a id="transition" href="#aboutme"> About me</a> <a href=""> Projects</a> <a href="./assets/documents/MuhammedHakanKilic.pdf" target="__blank"> Resume</a> <a href="#contactme"> Contact</a></div>
         </nav>
         <div class="page">
             <div class="content">
@@ -23,15 +23,33 @@
                 </div>
                 <div class="mybio">
                     <h1>Hi!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto laudantium voluptates temporibus corporis officiis veritatis facilis dolore. Vel esse vero totam laudantium laborum magni ut beatae fugiat possimus! Recusandae.</p>
+                    <h4> Computer Engineering Student at Yıldız Technical University</h4><br>
+                    <p> I am passionate about new technologies and eager to learn anything</p>
+                    <button>Contact<img src="./assets/phone.png" alt="phoneicon"></button>
                 </div>
             </div>
 
         </div>
         <footer>
-            <h5>&copy; 2022 by Muhammed Hakan Kılıç</h5>
+            
         </footer>
-        
+        <div id="aboutme" class="about">
+            <div class="container">
+                <h2>About me</h2>
+                <div class="imageandaboutme">
+                    <div class="textbox">My name is Hakan. I am computer engineering student at Yıldız Technical University. I am diligent, curious and hardworking person and I am eager to learn new things. I have very good understanding of algorithms and data structures. I am interested in machine learning, web development and mobile app development.</div>
+                    <img src="./assets/myimage.jpeg" alt="myimage">
+                </div>
+            </div>
+            
+        </div>
+        <div id="contactme" class="contact">
+            
+            <div class="container">
+                <input type="text" placeholder="E-Mail" class="email"><br>
+                <textarea type="text " cols="0" rows="7" class="contactinput" placeholder="Your Message"></textarea>
+            </div>
+        </div>
+        <script src="script.js" ></script>
     </body>
-
 </html>
