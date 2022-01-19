@@ -25,14 +25,14 @@
                     <h1>Hi!</h1>
                     <h4> Computer Engineering Student at Yıldız Technical University</h4><br>
                     <p> I am passionate about new technologies and eager to learn anything</p>
-                    <button>Contact<img src="./assets/phone.png" alt="phoneicon"></button>
+                    <a href="#contactme"><button> Contact<img src="./assets/phone.png" alt="phoneicon"></button></a>
                 </div>
             </div>
 
         </div>
-        <footer>
-            
-        </footer>
+        <div class="whitespace">
+
+        </div>
         <div id="aboutme" class="about">
             <div class="container">
                 <h2>About me</h2>
@@ -46,10 +46,21 @@
         <div id="contactme" class="contact">
             
             <div class="container">
-                <input type="text" placeholder="E-Mail" class="email"><br>
-                <textarea type="text " cols="0" rows="7" class="contactinput" placeholder="Your Message"></textarea>
+                <h2>Contact me</h2>
+                <form action="https://formsubmit.co/m-h-k140@hotmail.com" method="POST">
+                    <label for name="mail"> E-Mail</label><br>
+                    <input type="text" name="mail" class="input"><br>
+                    <label for name="subject"> Subject</label><br>
+                    <input type="text" name="subject" class="input"><br>
+                    <label for name="message"> Message</label><br>
+                    <textarea type="text" name="message" cols="0" rows="9" class="messagebox" ></textarea><br>
+                    <button type="submit"> Send </button>
+                </form>
             </div>
         </div>
+        <footer>
+            <p>&copy; Written by Muhammed Hakan Kılıç 2022</p>
+        </footer>
         <script src="script.js" ></script>
     </body>
 </html>

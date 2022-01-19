@@ -147,36 +147,15 @@ a{
 .content .mybio button:hover{
     background-color: rgb(236, 154, 0);
     cursor: pointer;
-    transition: 0.3s;
 }
 .content .mybio p{
     margin-top: 25px;
     padding-left: 20px;
 }
-footer{
+.whitespace{
     width: 100%;
     height: 12vh;
     background-color: white;
-}
-@media only screen and (max-width: 924px) {
-    nav .navpages a{
-        width: 70px;
-        font-size: 15px;
-    }
-    .content{
-        left: 24%;
-    }
-}
-@media only screen and (max-width: 800px) {
-    nav .name h3{
-        font-size: 10px;
-    }
-    nav .name p{
-        font-size: 10px;
-    }
-    .content{
-        left: 14%;
-    }
 }
 .about{
     width: 100%;
@@ -191,7 +170,7 @@ footer{
     margin: auto;
     display: flex;
     flex-direction: column;
-    background-color: #e6dace;
+    background-color: #f5ece7;
     border-radius: 2rem;
 }
 .about .container h2{
@@ -230,7 +209,7 @@ footer{
 }
 .contact{
     width: 100%;
-    height: 100vh;
+    height: 88vh;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -239,4 +218,72 @@ footer{
     width: 800px;
     height: 500px;
     margin: auto;
+}
+.contact .container h2{
+    text-align: center;
+}
+
+.contact .container form{
+    width: 80%;
+    margin: auto;
+}
+.contact .container .input{
+    background-color: #f5ece7;
+    width: 100%;
+    height: 40px;
+    border-radius: 1.2rem;
+    font-size: 17px;
+    font-family: roboto;
+    padding-left: 15px;
+}
+.contact .container .messagebox{
+    width: 100%;
+    border-radius: 1.2rem;
+    background-color: #f5ece7;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 17px;
+    font-family: roboto;
+}
+.contact .container form button{
+    width: 80px;
+    height: 40px;
+    color: black;
+    background-color: #f5ece7;
+    border-radius: 1.2rem;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.contact .container form button:hover{
+    cursor: pointer;
+    background-color: #e6dace;
+}
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color:#f5ece7;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 12vh;  
+}
+@media only screen and (max-width: 924px) {
+    nav .navpages a{
+        width: 70px;
+        font-size: 15px;
+    }
+    .content{
+        left: 24%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    nav .name h3{
+        font-size: 10px;
+    }
+    nav .name p{
+        font-size: 10px;
+    }
+    .content{
+        left: 14%;
+    }
 }
